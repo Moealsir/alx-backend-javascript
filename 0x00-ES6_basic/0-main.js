@@ -1,3 +1,3 @@
-import concatArrays from './5-spread-operator.js';
+import createEmployeesObject from './11-createEmployeesObject.js';
 
-console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+console.log(createEmployeesObject("Software", [ "Bob", "Sylvie" ]));
