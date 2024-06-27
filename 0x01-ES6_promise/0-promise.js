@@ -1,10 +1,6 @@
 #!/usr/bin/node
 function getResponseFromAPI() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve('success');
-    }, 1000);
-  });
+  return new Promise((resolve) => {});
 }
 
 export default getResponseFromAPI;
