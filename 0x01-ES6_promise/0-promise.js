@@ -1,6 +1,6 @@
 #!/usr/bin/node
 function getResponseFromAPI() {
-  return new Promise((resolve) => {});
+  return new Promise(() => {});
 }
 
 export default getResponseFromAPI;
