@@ -1,5 +1,5 @@
 #!/usr/bin/node
-export default class Currency {
+class Currency {
   constructor(code, name) {
     this.code = code;
     this.name = name;
@@ -31,3 +31,5 @@ export default class Currency {
     return `${this._name} (${this._code})`;
   }
 }
+
+export default Currency;
